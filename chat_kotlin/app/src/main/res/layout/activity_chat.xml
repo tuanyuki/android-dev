@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/idToolbar_chat"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:theme="@style/ToolBarStyle"
+        app:titleTextAppearance="@style/TitleTextAppearance"
+        app:title="title" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRCV_Chat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/idLL_Chat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/idToolbar_chat" />
+
+    <LinearLayout
+        android:id="@+id/idLL_Chat"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/idEDTmessage_Chat"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_edt" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/idBTNsend_Chat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="Send"
+            android:textAllCaps="false"
+            android:background="@drawable/custom_btn_login"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

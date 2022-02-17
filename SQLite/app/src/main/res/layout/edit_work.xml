@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/idTVEditWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Sua cong viec"
+        android:gravity="center_horizontal"
+        android:textColor="#ff00"
+        android:padding="5dp"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/idEDTContentWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#9C27B0"
+        android:text="test"
+        android:layout_below="@+id/idTVEditWork"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/idBTNCancel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HUY"
+        android:padding="5dp"
+        android:layout_below="@+id/idEDTContentWork"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/idBTNConfirm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XAc nhan"
+        android:padding="5dp"
+        android:layout_below="@+id/idEDTContentWork"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

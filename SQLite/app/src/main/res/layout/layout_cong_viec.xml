@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/idDescripsionTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="mo ta cong viec"
+        android:textSize="22sp"
+        android:textColor="@color/purple_700"
+        android:padding="6dp"
+        android:layout_weight="8"/>
+    <ImageView
+        android:id="@+id/idDeleteIMG"
+        android:layout_marginTop="8dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_baseline_delete_24"/>
+    <ImageView
+        android:id="@+id/idEditIMG"
+        android:layout_marginTop="8dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_baseline_edit_24"/>
+
+</LinearLayout>

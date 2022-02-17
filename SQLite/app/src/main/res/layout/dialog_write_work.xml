@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/idTVTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#B81717"
+        android:text="GHI CHÚ"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/idEDTWordToDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idTVTitle"
+        android:layout_margin="10dp"
+        android:hint="Tạo ghi chú"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/idBTNConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idEDTWordToDo"
+        android:layout_margin="10dp"
+        android:text="Xác nhận"
+        android:padding="6dp"/>
+    <Button
+        android:id="@+id/idBTNCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idEDTWordToDo"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:text="Hủy"
+        android:padding="6dp"/>
+</RelativeLayout>

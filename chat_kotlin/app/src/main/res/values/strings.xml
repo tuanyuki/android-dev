@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">chat_kotlin</string>
+    <string name="user_name">User name</string>
+    <string name="pass_word">Pass Word</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="data_user">user</string>
+    <string name="tuan_anh">Tuan Anh</string>
+</resources>

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "87813261700",
+    "firebase_url": "https://testfirebase-4a49d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "testfirebase-4a49d",
+    "storage_bucket": "testfirebase-4a49d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87813261700:android:e440891d8cd0b0ae6575d1",
+        "android_client_info": {
+          "package_name": "com.nta.cardview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87813261700-kjn9flk5r027ue1iv6ulp7efjbt1pmgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkwJIMgSf0QE0Z71gS3MHZNhZs_XK44lM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87813261700-kjn9flk5r027ue1iv6ulp7efjbt1pmgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87813261700:android:43f7d38f5a7d213e6575d1",
+        "android_client_info": {
+          "package_name": "com.nta.chat_kotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87813261700-kjn9flk5r027ue1iv6ulp7efjbt1pmgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkwJIMgSf0QE0Z71gS3MHZNhZs_XK44lM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87813261700-kjn9flk5r027ue1iv6ulp7efjbt1pmgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87813261700:android:0289ac2c47b96e296575d1",
+        "android_client_info": {
+          "package_name": "com.nta.viewbinding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87813261700-kjn9flk5r027ue1iv6ulp7efjbt1pmgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkwJIMgSf0QE0Z71gS3MHZNhZs_XK44lM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87813261700-kjn9flk5r027ue1iv6ulp7efjbt1pmgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -66,7 +66,7 @@ class ChatActivity : AppCompatActivity() {
             if(txtMessage.text.isEmpty()){
                 Toast.makeText(this,"pls input your message",Toast.LENGTH_SHORT).show()
             }else{
-                val message: Messages = Messages(txtMessage.text.toString(),mAuth.uid)
+                val message = Messages(txtMessage.text.toString(),mAuth.uid)
                 reference.child("chats").child(sendRoom).child("Messages").push()
                     .setValue(message)
                 reference.child("chats").child(receivedRoom).child("Messages").push()

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ChatKotlinV2</string>
+    <string name="default_web_client">406243092720-cb0i9c36c3n78umk7n97l8hbp85ii71i.apps.googleusercontent.com</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="username">username</string>
+    <string name="register">Register</string>
+    <string name="setName">What is your name?</string>
+    <string name="avatar">avatar</string>
+    <string name="setAvatar">Set your Avatar</string>
+    <string name="confirm">Confirm</string>
+    <string name="camera">Camera</string>
+    <string name="localmemory">Local Memory</string>
+    <string name="login">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

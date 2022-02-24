@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Tuan Anh/Desktop/Study/git_android/Android-Studio/chat_kotlin/app/src/main/res/layout/activity_chat.xml" value="0.1" />
+        <entry key="..\:/Users/Tuan Anh/Desktop/Study/git_android/Android-Studio/chat_kotlin/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/Tuan Anh/Desktop/Study/git_android/Android-Studio/chat_kotlin/app/src/main/res/layout/activity_intro.xml" value="0.1" />
+        <entry key="..\:/Users/Tuan Anh/Desktop/Study/git_android/Android-Studio/chat_kotlin/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/code/android studio/chat_kotlin/app/src/main/res/drawable/btn_send_message.xml" value="0.1890625" />
         <entry key="..\:/code/android studio/chat_kotlin/app/src/main/res/drawable/cardview_custom.xml" value="0.18518518518518517" />
         <entry key="..\:/code/android studio/chat_kotlin/app/src/main/res/drawable/custom_btn_login.xml" value="0.1890625" />
